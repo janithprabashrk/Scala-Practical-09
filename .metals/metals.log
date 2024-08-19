@@ -88,3 +88,24 @@
 2024.08.19 19:21:03 INFO  compiling scala-practical-09_f4dd477a3a (1 scala source)
 2024.08.19 19:21:03 INFO  time: compiled Scala-Practical-09_f4dd477a3a in 0.34s
 2024.08.19 19:21:03 INFO  time: indexed workspace in 0.95s
+2024.08.19 19:39:01 INFO  compiling scala-practical-09_f4dd477a3a (1 scala source)
+2024.08.19 19:39:01 INFO  time: compiled Scala-Practical-09_f4dd477a3a in 0.29s
+2024.08.19 19:39:33 INFO  compiling scala-practical-09_f4dd477a3a (1 scala source)
+2024.08.19 19:39:33 INFO  time: compiled Scala-Practical-09_f4dd477a3a in 0.24s
+2024.08.19 19:39:40 INFO  compiling scala-practical-09_f4dd477a3a (1 scala source)
+2024.08.19 19:39:40 INFO  time: compiled Scala-Practical-09_f4dd477a3a in 0.27s
+2024.08.19 19:41:49 INFO  compiling scala-practical-09_f4dd477a3a (1 scala source)
+2024.08.19 19:41:49 INFO  time: compiled Scala-Practical-09_f4dd477a3a in 0.26s
+2024.08.19 19:42:28 INFO  compiling scala-practical-09_f4dd477a3a (1 scala source)
+2024.08.19 19:42:28 INFO  time: compiled Scala-Practical-09_f4dd477a3a in 0.35s
+Exception in thread "pool-11-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024.08.19 19:47:18 INFO  Shutting down server
+2024.08.19 19:47:18 INFO  shutting down Metals
+2024.08.19 19:47:19 INFO  Shut down connection with build server.
+2024.08.19 19:47:18 INFO  Exiting server
