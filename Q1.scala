@@ -16,7 +16,7 @@ object interestCalc {
         }
 
         val interestAmount = interest(depositAmount)
-        println(s"The interest earned for a deposit of LKR. $depositAmount is LKR. $interestAmount")
+        println(f"The interest earned for a deposit of LKR $depositAmount%.2f is LKR $interestAmount%.2f")
 
     }
 
